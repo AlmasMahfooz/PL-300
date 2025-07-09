@@ -9,3 +9,7 @@ https://www.youtube.com/watch?v=fkEIX_fR9sI&t=545s
 
 working on these test paper
 https://www.passnexam.com/microsoft/pl-300/5
+
+
+Pragmatic videos
+https://www.youtube.com/watch?v=H2HPicNvz8s&list=PLcwrIWK7WBcSCcdFkFBftOjqli_yi9Zti&index=2
