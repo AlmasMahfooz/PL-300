@@ -13,7 +13,7 @@ https://www.passnexam.com/microsoft/pl-300/5
 
 Pragmatic videos
 https://www.youtube.com/watch?v=H2HPicNvz8s&list=PLcwrIWK7WBcSCcdFkFBftOjqli_yi9Zti&index=2
-
+https://www.youtube.com/watch?v=Dk25lwdTKow
 
 CASE STUDY
 https://www.youtube.com/watch?v=fNuhHByJbS4&list=PLbWtUDmDbHRAAYc1FDinFWk-PFZ77sde2
