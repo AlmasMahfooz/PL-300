@@ -17,6 +17,9 @@ https://www.youtube.com/watch?v=Dk25lwdTKow
 
 CASE STUDY
 https://www.youtube.com/watch?v=fNuhHByJbS4&list=PLbWtUDmDbHRAAYc1FDinFWk-PFZ77sde2
+(https://www.youtube.com/watch?v=SU3f8UK6XEU&t=107s)
+
+
 
 StartDate = 
 var __Weeknum = Weekly_Returns[week_id]
