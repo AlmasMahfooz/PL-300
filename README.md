@@ -21,6 +21,12 @@ https://www.youtube.com/watch?v=fNuhHByJbS4&list=PLbWtUDmDbHRAAYc1FDinFWk-PFZ77s
 
 
 
+
+https://github.com/microsoft/powerbi-desktop-samples
+
+
+
+
 StartDate = 
 var __Weeknum = Weekly_Returns[week_id]
 return
