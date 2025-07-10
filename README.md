@@ -17,3 +17,8 @@ https://www.youtube.com/watch?v=Dk25lwdTKow
 
 CASE STUDY
 https://www.youtube.com/watch?v=fNuhHByJbS4&list=PLbWtUDmDbHRAAYc1FDinFWk-PFZ77sde2
+
+StartDate = 
+var __Weeknum = Weekly_Returns[week_id]
+return
+CALCULATE(FORMAT(MIN('Date'[date]),"yyyymmdd" ),  'Date'[week] = __Weeknum)
