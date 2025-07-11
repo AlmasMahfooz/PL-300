@@ -24,7 +24,9 @@ https://www.youtube.com/watch?v=fNuhHByJbS4&list=PLbWtUDmDbHRAAYc1FDinFWk-PFZ77s
 
 https://github.com/microsoft/powerbi-desktop-samples
 
+https://learn.microsoft.com/en-us/power-bi/create-reports/insights
 
+https://radacad.com/enhance-the-card-visual-in-power-bi-with-conditional-formatting/
 
 
 StartDate = 
