@@ -18,3 +18,8 @@ Google Dataset Search: A tool that helps you find datasets stored across the web
 
 PROFILE DATA
 Determining anomalies, examining and developing the underlying data structures, and querying data statistics such as row counts, value distributions, minimum and maximum values, averages.
+By default, Power Query examines the first 1000 rows of your data set. To change this, select the profiling status in the status bar and select Column profiling based on entire data set.
+
+Column distribution :  counts of distinct and unique values
+Distinct values are all the different values in a column, including duplicates and null values, while unique values do not include duplicates or nulls. Therefore, distinct in this table tells
+you the total count of how many values are present, while unique tells you how many of those values only appear once.
