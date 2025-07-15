@@ -1,2 +1,8 @@
+CLEAN , TRANSFORM, LOAD DATA IN POWER BI
 Data type of column can ne changed from two places. Powe Query Editor and Power BI Desktop Report view.
 Best practice is to change datatype in Power Query Editor before loading the data.
+Changing column datatype is called Changed Type and will iterated every time data refreshed.
+Two different ways of combining tables are merging and appending.
+
+SHAPE AND COMBINE DATA IN POWER BI -- need to complete this athome
+https://learn.microsoft.com/en-us/power-bi/connect-data/desktop-shape-and-combine-data
