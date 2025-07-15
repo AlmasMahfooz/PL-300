@@ -1,0 +1,2 @@
+Data type of column can ne changed from two places. Powe Query Editor and Power BI Desktop Report view.
+Best practice is to change datatype in Power Query Editor before loading the data.
