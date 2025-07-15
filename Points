@@ -33,3 +33,12 @@ Dependencies: Later steps rely on earlier ones—changing the order can break th
 
 ********************************************************** BI LABS 
 https://github.com/MicrosoftLearning/PL-300-Microsoft-Power-BI-Data-Analyst/tree/Main/Allfiles
+https://github.com/MicrosoftLearning/PL-300-Microsoft-Power-BI-Data-Analyst/blob/Main/Instructions/Labs/01-get-data-in-power-bi.md
+
+Data model:A Power BI data model is a query-able data resource that’s optimized for analytics.A data model is also described as semantic model.
+Power BI dataset:Once Power BI data model is published to a workspace in BI Service it is known as a dataset.
+Analytic query:
+Tabular model:
+Star schema design:
+Table storage mode:
+Model framework:
