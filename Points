@@ -4,7 +4,7 @@ Best practice is to change datatype in Power Query Editor before loading the dat
 Changing column datatype is called Changed Type and will iterated every time data refreshed.
 Two different ways of combining tables are merging and appending.
 
-SHAPE AND COMBINE DATA IN POWER BI -- need to complete this athome
+*************************************************SHAPE AND COMBINE DATA IN POWER BI -- need to complete this athome
 https://learn.microsoft.com/en-us/power-bi/connect-data/desktop-shape-and-combine-data
 
 
@@ -23,3 +23,13 @@ By default, Power Query examines the first 1000 rows of your data set. To change
 Column distribution :  counts of distinct and unique values
 Distinct values are all the different values in a column, including duplicates and null values, while unique values do not include duplicates or nulls. Therefore, distinct in this table tells
 you the total count of how many values are present, while unique tells you how many of those values only appear once.
+
+M Code
+in statement: This tells Power Query which step is the final output.
+Top-down structure: Each step builds on the previous one.
+Variable names: You define each step with a name on the left of the =.
+Dependencies: Later steps rely on earlier ones—changing the order can break things.
+
+
+********************************************************** BI LABS 
+https://github.com/MicrosoftLearning/PL-300-Microsoft-Power-BI-Data-Analyst/tree/Main/Allfiles
