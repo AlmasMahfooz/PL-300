@@ -14,3 +14,7 @@ Microsoft Sample Data: Microsoft provides sample datasets specifically designed 
 Data.gov: A repository of U.S. government data that offers a wide range of datasets for public use.
 World Bank Data: Access global development data, including economic, social, and environmental indicators.
 Google Dataset Search: A tool that helps you find datasets stored across the web, making it easier to locate data relevant to your interests.
+
+
+PROFILE DATA
+Determining anomalies, examining and developing the underlying data structures, and querying data statistics such as row counts, value distributions, minimum and maximum values, averages.
