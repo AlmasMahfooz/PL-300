@@ -6,3 +6,11 @@ Two different ways of combining tables are merging and appending.
 
 SHAPE AND COMBINE DATA IN POWER BI -- need to complete this athome
 https://learn.microsoft.com/en-us/power-bi/connect-data/desktop-shape-and-combine-data
+
+
+Websites for Sample Data:
+Kaggle: A platform with a vast collection of datasets across various domains. You can search for datasets specifically suited for data analysis and visualization.
+Microsoft Sample Data: Microsoft provides sample datasets specifically designed for Power BI. You can find them in the Power BI documentation or directly in the Power BI Desktop under the "Get Data" option.
+Data.gov: A repository of U.S. government data that offers a wide range of datasets for public use.
+World Bank Data: Access global development data, including economic, social, and environmental indicators.
+Google Dataset Search: A tool that helps you find datasets stored across the web, making it easier to locate data relevant to your interests.
