@@ -1,5 +1,4 @@
 
-https://learn.microsoft.com/en-us/training/modules/configure-semantic-model-power-bi/media/2-1-relationship-filter-propagation-animation.gif#lightbox
 
 
 # PL-300
