@@ -1,3 +1,8 @@
+
+https://learn.microsoft.com/en-us/training/modules/configure-semantic-model-power-bi/media/2-1-relationship-filter-propagation-animation.gif#lightbox
+
+![Uploading image.png…]()
+
 # PL-300
 
 https://electroiq.com/stats/power-bi-statistics/
