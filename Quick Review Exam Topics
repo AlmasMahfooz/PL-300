@@ -11,3 +11,14 @@ Time Intelligence Generates
 >.Adds columns like Year, Quarter, Month, Day to support drill-downs and filtering
 >.Creates a hierarchy (Year → Quarter → Month → Day) for visuals
 >.Automatically links the hidden date table to your original date column
+The relationship between fact and dimension tables is typically a one-to-many relationship, where one record in a dimension table can relate to multiple records in a fact table.
+The "one" side is always a dimension table while the "many" side is always a fact table.
+A measure is a fact table column that stores values to be summarized,like SUM, MIN, MAX, AVERAGE.
+ALLSELECTED('Table') respects the slicers and filters in report page.
+USERELATIONSHIP function in DAX is used to activate an inactive relationship between two tables temporarily, specifically for the duration of a calculation.
+Delivery Sales = 
+CALCULATE(
+    [Total Sales],
+    USERELATIONSHIP(Sales[Delivery Date], Date[Date])
+)
+Nested DEX functions upto 64 levels can be used in calculated columns.
