@@ -1,1 +1,13 @@
-
+Configure relationships:
+Each relationship has a single "from" column and a single "to" column. It's important that the data types for these columns are the same (or equivalent) and that they contain matching values.
+If data source has a multi-column key,then need to transform the data to produce single-column keys for the related tables.
+For One-to-one cardinality,best practice is to use Power Query to merge queries to produce a single model table.
+Cross-filter direction determines how filters propagate.
+There can only be one active filter propagation path between two model tables. 
+The Synonyms property allows you to set one or more alternative names for the table
+The Auto date/time feature in Power BI automatically creates hidden date tables for each date column in your data model.
+Time Intelligence Generates 
+>.A calculated table using the CALENDAR function for each date column
+>.Adds columns like Year, Quarter, Month, Day to support drill-downs and filtering
+>.Creates a hierarchy (Year → Quarter → Month → Day) for visuals
+>.Automatically links the hidden date table to your original date column
