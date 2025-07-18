@@ -25,24 +25,6 @@ https://www.kaggle.com/datasets/theworldbank/world-development-indicators?ref=ha
 https://www.kaggle.com/datasets/shaikhshoeb/adventureworks-dataset-for-data-analysis
 https://www.kaggle.com/datasets/samolkin/adventure-works-sales/code
 https://powerbidocs.com/tag/sample-superstore-sales-excel-xls/?ref=hackernoon.com
-
-
-
-PROFILE DATA
-Determining anomalies, examining and developing the underlying data structures, and querying data statistics such as row counts, value distributions, minimum and maximum values, averages.
-By default, Power Query examines the first 1000 rows of your data set. To change this, select the profiling status in the status bar and select Column profiling based on entire data set.
-
-Column distribution :  counts of distinct and unique values
-Distinct values are all the different values in a column, including duplicates and null values, while unique values do not include duplicates or nulls. Therefore, distinct in this table tells
-you the total count of how many values are present, while unique tells you how many of those values only appear once.
-
-M Code
-in statement: This tells Power Query which step is the final output.
-Top-down structure: Each step builds on the previous one.
-Variable names: You define each step with a name on the left of the =.
-Dependencies: Later steps rely on earlier ones—changing the order can break things.
-
-
 ********************************************************** BI LABS 
 https://github.com/MicrosoftLearning/PL-300-Microsoft-Power-BI-Data-Analyst/tree/Main/Allfiles
 https://github.com/MicrosoftLearning/PL-300-Microsoft-Power-BI-Data-Analyst/blob/Main/Instructions/Labs/01-get-data-in-power-bi.md
@@ -51,8 +33,25 @@ https://github.com/microsoft/powerbi-desktop-samples/tree/main/DAX
 https://www.kaggle.com/datasets/algorismus/adventure-works-in-excel-tables/data
 
 
+PROFILE DATA
+------------
+Determining anomalies, examining and developing the underlying data structures, and querying data statistics such as row counts, value distributions, minimum and maximum values, averages.
+By default, Power Query examines the first 1000 rows of your data set. To change this, select the profiling status in the status bar and select Column profiling based on entire data set.
 
-Data model:A Power BI data model is a query-able data resource that’s optimized for analytics.A data model is also described as semantic model.
+Column distribution :  counts of distinct and unique values
+Distinct values are all the different values in a column, including duplicates and null values, while unique values do not include duplicates or nulls. Therefore, distinct in this table tells
+you the total count of how many values are present, while unique tells you how many of those values only appear once.
+
+M Code
+-------
+in statement: This tells Power Query which step is the final output.
+Top-down structure: Each step builds on the previous one.
+Variable names: You define each step with a name on the left of the =.
+Dependencies: Later steps rely on earlier ones—changing the order can break things.
+
+Data model:
+----------
+A Power BI data model is a query-able data resource that’s optimized for analytics.A data model is also described as semantic model.
 Power BI dataset:Once Power BI data model is published to a workspace in BI Service it is known as a dataset.
 Analytic query:When Power BI visualizes dataset data, it prepares and sends an analytic query. An analytic query produces a query result from a model that’s easy for a person to understand, especially when visualized.
           An analytic query has three phases that are executed in this order:
