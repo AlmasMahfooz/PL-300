@@ -1,19 +1,31 @@
 CLEAN , TRANSFORM, LOAD DATA IN POWER BI
-Data type of column can ne changed from two places. Powe Query Editor and Power BI Desktop Report view.
+-----------------------------------------
+Data type of column can be changed from two places. Powe Query Editor and Power BI Desktop Report view.
 Best practice is to change datatype in Power Query Editor before loading the data.
 Changing column datatype is called Changed Type and will iterated every time data refreshed.
 Two different ways of combining tables are merging and appending.
 
-*************************************************SHAPE AND COMBINE DATA IN POWER BI -- need to complete this athome
+SHAPE AND COMBINE DATA IN POWER BI 
+----------------------------------
 https://learn.microsoft.com/en-us/power-bi/connect-data/desktop-shape-and-combine-data
 
 
 Websites for Sample Data:
+---------------------------
 Kaggle: A platform with a vast collection of datasets across various domains. You can search for datasets specifically suited for data analysis and visualization.
 Microsoft Sample Data: Microsoft provides sample datasets specifically designed for Power BI. You can find them in the Power BI documentation or directly in the Power BI Desktop under the "Get Data" option.
 Data.gov: A repository of U.S. government data that offers a wide range of datasets for public use.
 World Bank Data: Access global development data, including economic, social, and environmental indicators.
 Google Dataset Search: A tool that helps you find datasets stored across the web, making it easier to locate data relevant to your interests.
+
+Some of the Datasets for Practice:
+----------------------------------
+https://www.kaggle.com/datasets/elemento/nyc-yellow-taxi-trip-data?ref=hackernoon.com
+https://www.kaggle.com/datasets/theworldbank/world-development-indicators?ref=hackernoon.com
+https://www.kaggle.com/datasets/shaikhshoeb/adventureworks-dataset-for-data-analysis
+https://www.kaggle.com/datasets/samolkin/adventure-works-sales/code
+https://powerbidocs.com/tag/sample-superstore-sales-excel-xls/?ref=hackernoon.com
+
 
 
 PROFILE DATA
