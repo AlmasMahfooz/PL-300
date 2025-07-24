@@ -8,6 +8,13 @@ certifying a semantic model is part of the endorsement process, which helps orga
 Admin users who have permissions to certify a semantic model are defined in the Dataset Certification tenant admin setting.
 there are 4 consecutive semantic model refresh failures, the refresh schedule will be automatically disabled.
 The Admin role is the only one that has the permission to update workspace metadata.
+A calculated table only duplicates data. Any model configurations such as column visibility or hierarchies must be recreated if needed.
+Unlike a measure, a calculated column can be used in a slicer to place filter options on the report page. DAX measures cannot be placed in the “Filters on this page” well.
+They can only be placed per visual, in the “Filters on this visual” well of the Filters Pane. Both DAX columns and measures may be used as a visual-level filter. 
+Both DAX columns and measures can be used in the drillthrough well.
+
+
+
 
 
 Manage and Secure Power BI
