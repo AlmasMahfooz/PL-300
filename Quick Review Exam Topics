@@ -7,6 +7,7 @@ Individual filters and slicers cannot be pinned to a dashboard.
 certifying a semantic model is part of the endorsement process, which helps organizations highlight trusted, high-quality content for reuse across reports and dashboards.
 Admin users who have permissions to certify a semantic model are defined in the Dataset Certification tenant admin setting.
 there are 4 consecutive semantic model refresh failures, the refresh schedule will be automatically disabled.
+The Admin role is the only one that has the permission to update workspace metadata.
 
 
 Manage and Secure Power BI
