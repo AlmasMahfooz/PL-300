@@ -1,3 +1,12 @@
+A SharePoint folder is the only connector that will allow the import of multiple Excel (or CSV) files stored in a OneDrive for Business folder, without using a data gateway.
+A parameter is the only part of a query that can be updated or changed in the Power BI service, by accessing the dataset settings. 
+The top and bottom entries in Value distribution identify outliers, which appear, respectively, the greatest and the smallest number of times in that column.
+Enabling Assume Referential Integrity improves query efficiency by allowing INNER JOINs instead of OUTER JOINs, optimizing DirectQuery performance.
+
+
+
+
+
 Manage and Secure Power BI
 
 
