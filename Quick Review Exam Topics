@@ -2,9 +2,11 @@ A SharePoint folder is the only connector that will allow the import of multiple
 A parameter is the only part of a query that can be updated or changed in the Power BI service, by accessing the dataset settings. 
 The top and bottom entries in Value distribution identify outliers, which appear, respectively, the greatest and the smallest number of times in that column.
 Enabling Assume Referential Integrity improves query efficiency by allowing INNER JOINs instead of OUTER JOINs, optimizing DirectQuery performance.
-
-
-
+The ability to combine data from multiple semantic models is one of the features that is available in dashboards but not supported in reports.
+Individual filters and slicers cannot be pinned to a dashboard.
+certifying a semantic model is part of the endorsement process, which helps organizations highlight trusted, high-quality content for reuse across reports and dashboards.
+Admin users who have permissions to certify a semantic model are defined in the Dataset Certification tenant admin setting.
+there are 4 consecutive semantic model refresh failures, the refresh schedule will be automatically disabled.
 
 
 Manage and Secure Power BI
