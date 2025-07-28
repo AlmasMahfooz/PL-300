@@ -59,3 +59,69 @@ CALCULATE(
     USERELATIONSHIP(Sales[Delivery Date], Date[Date])
 )
 Nested DEX functions upto 64 levels can be used in calculated columns.
+
+CLEAN , TRANSFORM, LOAD DATA IN POWER BI
+-----------------------------------------
+Data type of column can be changed from two places. Powe Query Editor and Power BI Desktop Report view.
+Best practice is to change datatype in Power Query Editor before loading the data.
+Changing column datatype is called Changed Type and will iterated every time data refreshed.
+Two different ways of combining tables are merging and appending.
+
+SHAPE AND COMBINE DATA IN POWER BI 
+----------------------------------
+https://learn.microsoft.com/en-us/power-bi/connect-data/desktop-shape-and-combine-data
+
+
+Websites for Sample Data:
+---------------------------
+Kaggle: A platform with a vast collection of datasets across various domains. You can search for datasets specifically suited for data analysis and visualization.
+Microsoft Sample Data: Microsoft provides sample datasets specifically designed for Power BI. You can find them in the Power BI documentation or directly in the Power BI Desktop under the "Get Data" option.
+Data.gov: A repository of U.S. government data that offers a wide range of datasets for public use.
+World Bank Data: Access global development data, including economic, social, and environmental indicators.
+Google Dataset Search: A tool that helps you find datasets stored across the web, making it easier to locate data relevant to your interests.
+
+Some of the Datasets for Practice:
+----------------------------------
+https://www.kaggle.com/datasets/elemento/nyc-yellow-taxi-trip-data?ref=hackernoon.com
+https://www.kaggle.com/datasets/theworldbank/world-development-indicators?ref=hackernoon.com
+https://www.kaggle.com/datasets/shaikhshoeb/adventureworks-dataset-for-data-analysis
+https://www.kaggle.com/datasets/samolkin/adventure-works-sales/code
+https://powerbidocs.com/tag/sample-superstore-sales-excel-xls/?ref=hackernoon.com
+https://learn.microsoft.com/en-us/power-bi/create-reports/sample-datasets#the-power-bi-samples-as-pbix-files
+********************************************************** BI LABS 
+https://github.com/MicrosoftLearning/PL-300-Microsoft-Power-BI-Data-Analyst/tree/Main/Allfiles
+https://github.com/MicrosoftLearning/PL-300-Microsoft-Power-BI-Data-Analyst/blob/Main/Instructions/Labs/01-get-data-in-power-bi.md
+********************************************************** Adventure Works / Adventure Works 2022 CSVs
+https://github.com/microsoft/powerbi-desktop-samples/tree/main/DAX
+https://www.kaggle.com/datasets/algorismus/adventure-works-in-excel-tables/data
+
+
+PROFILE DATA
+------------
+Determining anomalies, examining and developing the underlying data structures, and querying data statistics such as row counts, value distributions, minimum and maximum values, averages.
+By default, Power Query examines the first 1000 rows of your data set. To change this, select the profiling status in the status bar and select Column profiling based on entire data set.
+
+Column distribution :  counts of distinct and unique values
+Distinct values are all the different values in a column, including duplicates and null values, while unique values do not include duplicates or nulls. Therefore, distinct in this table tells
+you the total count of how many values are present, while unique tells you how many of those values only appear once.
+
+M Code
+-------
+in statement: This tells Power Query which step is the final output.
+Top-down structure: Each step builds on the previous one.
+Variable names: You define each step with a name on the left of the =.
+Dependencies: Later steps rely on earlier ones—changing the order can break things.
+
+Data model:
+----------
+A Power BI data model is a query-able data resource that’s optimized for analytics.A data model is also described as semantic model.
+Power BI dataset:Once Power BI data model is published to a workspace in BI Service it is known as a dataset.
+Analytic query:When Power BI visualizes dataset data, it prepares and sends an analytic query. An analytic query produces a query result from a model that’s easy for a person to understand, especially when visualized.
+          An analytic query has three phases that are executed in this order:
+          Filter
+          Group
+          Summarize
+Tabular model:
+Star schema design:
+Table storage mode:
+Model framework:
