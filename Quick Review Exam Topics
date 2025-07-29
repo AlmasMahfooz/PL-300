@@ -18,6 +18,39 @@ are all supported against DirectQuery.
 
 
 
+To define incremental refresh policy
+-------------------------------------
+>Define the filter parameters.
+>Use the parameters to apply a filter.
+>Define the incremental refresh policy.
+>Publish changes to Power BI service.
+
+For incremental refresh, the semantic models are filtered by two date/time parameters: RangeStart and RangeEnd. 
+Incremental refresh policy in defined in Power BI Desktop.
+Once policy is defined, then need to publish the report to Power BI Service.
+Incremental refresh is supported for Power BI Premium, Premium per user, Power BI Pro, and Power BI Embedded models.
+
+
+Power BI provides three ways to endorse your semantic models:
+-------------------------------------------------------------
+Promotion - Enables you to highlight content that you think is valuable, worthwhile, and ready for others to use. It encourages the collaborative spread of content within the organization.
+Certification - Request certification for a promoted semantic model. Certification can be a highly selective process, so only the truly reliable and authoritative semantic models are used across the organization.
+Master data - Being labeled as master data means that the data item is regarded by the organization as being core, single-source-of-truth data, such as customer lists or product codes.
+This is a feature from Microsoft Fabric, which we won't further discuss in this module.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 Manage and Secure Power BI
 
 
