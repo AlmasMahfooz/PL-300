@@ -38,8 +38,10 @@ Certification - Request certification for a promoted semantic model. Certificati
 Master data - Being labeled as master data means that the data item is regarded by the organization as being core, single-source-of-truth data, such as customer lists or product codes.
 This is a feature from Microsoft Fabric, which we won't further discuss in this module.
 
-
-
+Lineage View
+-------------
+Lineage View in Power BI is a powerful visual tool that helps you understand how data flows through your workspace — from its original source all the way to dashboards and reports.
+Every workspace automatically has a lineage view. You need at least a Contributor role in the workspace to view it.
 
 
 
