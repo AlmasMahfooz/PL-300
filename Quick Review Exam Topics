@@ -14,6 +14,14 @@ They can only be placed per visual, in the “Filters on this visual” well of 
 Both DAX columns and measures can be used in the drillthrough well.
 Time intelligence functions have performance implications and are disabled for quick measures against DirectQuery tables. Mathematical operations, aggregate per category, and X-functions 
 are all supported against DirectQuery.
+Viewing,Editing and deleting needs contributer role.
+Two benefits of using DirectQuery instead of Import are minimized local disk space usage and minimized need for data refresh
+Two benefits of using Import instead of DirectQuery are full support for the Q&A Power BI service and full support for the Quick Insights Power BI service
+Both the DirectQuery and Import storage modes support per table configuration
+Quick Insights in Power BI Service is a feature that automatically analyzes your dataset to uncover hidden patterns, trends, and anomalies—without requiring you to write any queries or build visuals manually.
+
+
+
 
 
 
