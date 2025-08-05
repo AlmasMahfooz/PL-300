@@ -1,0 +1,39 @@
+https://www.coursera.org/learn/intermediate-dax-and-time-intelligence/home/welcome
+
+Row Context
+-----------
+Calculated Columns data are drived from values from its own row, which is important concept in DAX and called ROW CONTEXT.
+For ROW CONTEXT formula of calculated column in every cell will be same this is due to the row context.
+When calculated columns are formed, the Dax formula is evaluated in the context of the data within that row of the table.
+
+Filter Contect
+--------------
+Filter context refers to the external filters or conditions applied to a dataset during the formula evaluation.
+
+
+DAX Measures
+------------
+DAX measures are generally used to summarize or what we call aggregate data in our table.
+Filter context refers to the external filters or conditions applied to a dataset during the formula evaluation.
+
+To summarize, whilst row level context applies for the calculation of a calculated column, our filter context is usually 
+used to determine what rows are relevant for calculating the outcome of a measure.
+
+Difference b/w Calculated Column and Measures.
+----------------------------------------------
+to summarize, calculated columns calculate a new value for each row of a table, whereas measures are used to aggregate values across multiple rows. Calculated columns are calculated in a row context, where measures are calculated in a filter context. The data within calculated columns is stored within the file itself. So that's going to increase your file size. Whereas the values in measures are calculated at runtime each time the visuals are refreshed. The values within a calculated column are recalculated when the data source is refreshed. But like I just said, measures are recalculated when a chart is filtered or loaded. And in terms of usage, the key difference is that calculated columns are generally used for segmentation, which means they can be used in slices and filters, in table rows and columns, whereas measures are used for aggregation, and they can't be used to dissect your data.
+
+
+Iterator functions
+------------------
+Iterator functions have an ability to balance both row context and filter context. Again, the filter context decides what rows are relevant to the overall calculation. Within that context, the iterator function performs a calculation at the row level on each and then aggregates the results. 
+AVG(it):=AVERAGEX(Students,[English Score]+[Math Score])
+
+DAX Calculated Columns vs. Power Query
+----------------------------------------
+
+
+
+Scalar functions are functions that allow us to return a single value.
+Some of the most common ones we look at are SUM, AVERAGE, MIN, MAX, COUNT, or COUNTROWS
+Aggregation functions look at all the values in a particular column and do something to summarize that data
