@@ -54,6 +54,12 @@ Common visuals for showing trends are Line,Area, Column and Bar Charts.
 
 
 
+Create a Histogram in Power BI to see your product sales distribution.
+Exercise:https://www.youtube.com/watch?v=n-_hIc6mj1I
+
+
+
+
 
 https://electroiq.com/stats/power-bi-statistics/
 https://learn.microsoft.com/en-us/power-bi/create-reports/desktop-excel-stunning-report
