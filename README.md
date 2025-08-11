@@ -1,9 +1,9 @@
-
-
-
 # PL-300
 
 https://electroiq.com/stats/power-bi-statistics/
+
+Visuals
+-------
 
 
 
