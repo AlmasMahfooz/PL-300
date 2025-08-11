@@ -5,6 +5,7 @@ Visuals
 To create a Power BI visual that displays trending data over months, you can use a ribbon chart or an area chart.
 
 Ribbon Chart
+------------
 Select Ribbon chart from the Visualizations pane.
 For the X-axis, select the Month and Day fields under the OpenDate data hierarchy.
 For the Y-axis, select the Value from This Year Sales.
@@ -12,6 +13,7 @@ For the Legend, select the Category from Item.
 The ribbon chart will illustrate the rank for categories over the months.
 
 Area Chart
+----------
 In the Data pane, select Last Year Sales and This Year Sales.
 Convert the chart to an area chart by selecting the Area chart icon from the Visualizations pane.
 Add FiscalMonth to the Axis well.
@@ -21,6 +23,10 @@ Both visualizations will effectively show the trends in your data over the month
 ![Uploading image.png…](https://github.com/AlmasMahfooz/PL-300/blob/main/Images/trending%20over%20month.png)
 
 
+scatterplot/Scatter Chart/Scatter Plot
+--------------------------------------
+A scatterplot is typically used to compare a relationship between two (or more) calculations and their categorical distribution between each other.
+Creating a scatter visual is the first step of applying the clustering technique that groups data into clusters
 
 
 
@@ -44,12 +50,9 @@ Both visualizations will effectively show the trends in your data over the month
 
 
 
-
-
-
-
-
-
+Q&A feature
+-----------
+The Q&A feature lets you create a visual by typing in a question about your data. This new visual can then be pinned to the dashboard, without adding it to a report. 
 
 
 
