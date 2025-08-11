@@ -10,6 +10,9 @@ assigning the Member role to all users provides more permissions than necessary 
 The Admin role is the only one that has the permission to update workspace metadata.
 
 
+https://learn.microsoft.com/en-us/power-bi/natural-language/end-user-q-and-a-tutorial
+
+
 VISUALS
 --------
 To create a Power BI visual that displays trending data over months, you can use a ribbon chart or an area chart
