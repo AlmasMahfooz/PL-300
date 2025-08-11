@@ -43,16 +43,15 @@ Creating a scatter visual is the first step of applying the clustering technique
 
 
 
-
-
-
-
-
-
-
 Q&A feature
 -----------
 The Q&A feature lets you create a visual by typing in a question about your data. This new visual can then be pinned to the dashboard, without adding it to a report. 
+
+Visualizing trends
+------------------
+Visualizing trends using a trend line shows overall trends in the data but does not provide insights into the variations in ticket distribution across locations
+Common visuals for showing trends are Line,Area, Column and Bar Charts.
+
 
 
 
