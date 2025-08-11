@@ -18,7 +18,8 @@ Add FiscalMonth to the Axis well.
 Sort the visualization by selecting More options (...) and choosing Sort by > FiscalMonth.
 Both visualizations will effectively show the trends in your data over the months.
 
-https://github.com/AlmasMahfooz/PL-300/blob/main/CheckYourKnowledge
+![Uploading image.png…](https://github.com/AlmasMahfooz/PL-300/blob/main/CheckYourKnowledge)
+
 
 
 
