@@ -1,3 +1,25 @@
+The Power BI service provides support for creating Power BI dashboards. The Power BI mobile app can be used to view dashboards, but not to create them. Power BI Desktop does not provide support
+for creating Power BI dashboards.
+The Pin visual option allows you to pin the visual to an existing dashboard or create a new one. 
+Workspace apps can be installed automatically for any user in an organization, and without requiring notifications of installation.
+You can add members to a workspace, but they receive a notification that they’ve been added to the workspace.
+USERPRINCIPALNAME would return the Microsoft Entra ID login in the format of “name@company.com”
+Contributor role is appropriate for users who need to manage content, as it provides permissions for creating, editing, and deleting content
+assigning the Member role to all users provides more permissions than necessary for those who only need viewing access.
+The Admin role is the only one that has the permission to update workspace metadata.
+
+
+VISUALS
+--------
+To create a Power BI visual that displays trending data over months, you can use a ribbon chart or an area chart
+
+A ribbon chart places the highest (ranked) value at the top of the stacked column each month and shows those ranked changes over time
+
+
+A scatterplot is typically used to compare a relationship between two (or more) calculations and their categorical distribution between each other.
+
+
+
 A SharePoint folder is the only connector that will allow the import of multiple Excel (or CSV) files stored in a OneDrive for Business folder, without using a data gateway.
 A parameter is the only part of a query that can be updated or changed in the Power BI service, by accessing the dataset settings. 
 The top and bottom entries in Value distribution identify outliers, which appear, respectively, the greatest and the smallest number of times in that column.
