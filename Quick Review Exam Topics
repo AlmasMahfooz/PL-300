@@ -1,4 +1,5 @@
-The Power BI service provides support for creating Power BI dashboards. The Power BI mobile app can be used to view dashboards, but not to create them. Power BI Desktop does not provide support
+The Power BI service provides support for creating Power BI dashboards. The Power BI mobile app can be used to view dashboards, but not to create them.
+Power BI Desktop does not provide support
 for creating Power BI dashboards.
 The Pin visual option allows you to pin the visual to an existing dashboard or create a new one. 
 Workspace apps can be installed automatically for any user in an organization, and without requiring notifications of installation.
@@ -20,18 +21,21 @@ A scatterplot is typically used to compare a relationship between two (or more) 
 
 
 
-A SharePoint folder is the only connector that will allow the import of multiple Excel (or CSV) files stored in a OneDrive for Business folder, without using a data gateway.
+A SharePoint folder is the only connector that will allow the import of multiple Excel (or CSV) files stored in a OneDrive for Business folder, without using 
+a data gateway.
 A parameter is the only part of a query that can be updated or changed in the Power BI service, by accessing the dataset settings. 
 The top and bottom entries in Value distribution identify outliers, which appear, respectively, the greatest and the smallest number of times in that column.
 Enabling Assume Referential Integrity improves query efficiency by allowing INNER JOINs instead of OUTER JOINs, optimizing DirectQuery performance.
 The ability to combine data from multiple semantic models is one of the features that is available in dashboards but not supported in reports.
 Individual filters and slicers cannot be pinned to a dashboard.
-certifying a semantic model is part of the endorsement process, which helps organizations highlight trusted, high-quality content for reuse across reports and dashboards.
+certifying a semantic model is part of the endorsement process, which helps organizations highlight trusted, high-quality content for reuse across reports and 
+dashboards.
 Admin users who have permissions to certify a semantic model are defined in the Dataset Certification tenant admin setting.
 there are 4 consecutive semantic model refresh failures, the refresh schedule will be automatically disabled.
 The Admin role is the only one that has the permission to update workspace metadata.
 A calculated table only duplicates data. Any model configurations such as column visibility or hierarchies must be recreated if needed.
-Unlike a measure, a calculated column can be used in a slicer to place filter options on the report page. DAX measures cannot be placed in the “Filters on this page” well.
+Unlike a measure, a calculated column can be used in a slicer to place filter options on the report page. DAX measures cannot be placed in the “Filters on this
+page” well.
 They can only be placed per visual, in the “Filters on this visual” well of the Filters Pane. Both DAX columns and measures may be used as a visual-level filter. 
 Both DAX columns and measures can be used in the drillthrough well.
 Time intelligence functions have performance implications and are disabled for quick measures against DirectQuery tables. Mathematical operations, aggregate per category, and X-functions 
@@ -40,10 +44,16 @@ Viewing,Editing and deleting needs contributer role.
 Two benefits of using DirectQuery instead of Import are minimized local disk space usage and minimized need for data refresh
 Two benefits of using Import instead of DirectQuery are full support for the Q&A Power BI service and full support for the Quick Insights Power BI service
 Both the DirectQuery and Import storage modes support per table configuration
-Quick Insights in Power BI Service is a feature that automatically analyzes your dataset to uncover hidden patterns, trends, and anomalies—without requiring you to write any queries or build visuals manually.
+Quick Insights in Power BI Service is a feature that automatically analyzes your dataset to uncover hidden patterns, trends, and anomalies—without requiring you to
+write any queries or build visuals manually.
 
+The slicer visualization can be used to filter the other visuals on the page. You can enable a search box in a slicer where users can search for values 
+to filter.
+A funnel visualization is a chart that that has sequential connected stages, where items flow sequentially from one stage to the next. 
+A matrix visualization displays data in two or more dimensions and cross-highlights with other visuals on the same report page.
+A scatter chart visualization is a chart with one set of numerical data along a horizontal axis and another set of numerical values along a vertical axis.
+The matrix, scatter chart, and funnel do not offer a search box.
 
-soma karpagamoorthy
 
 
 
@@ -113,7 +123,8 @@ Time Intelligence Generates
 >.Adds columns like Year, Quarter, Month, Day to support drill-downs and filtering
 >.Creates a hierarchy (Year → Quarter → Month → Day) for visuals
 >.Automatically links the hidden date table to your original date column
-The relationship between fact and dimension tables is typically a one-to-many relationship, where one record in a dimension table can relate to multiple records in a fact table.
+The relationship between fact and dimension tables is typically a one-to-many relationship, where one record in a dimension table can relate to multiple records in a 
+fact table.
 The "one" side is always a dimension table while the "many" side is always a fact table.
 A measure is a fact table column that stores values to be summarized,like SUM, MIN, MAX, AVERAGE.
 ALLSELECTED('Table') respects the slicers and filters in report page.
