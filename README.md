@@ -29,7 +29,7 @@ A scatterplot is typically used to compare a relationship between two (or more) 
 Creating a scatter visual is the first step of applying the clustering technique that groups data into clusters.It is particularly suitable for identifying outliers
 because it displays them away from the bulk of data.
 
-![Uploading image.png…](learn.microsoft.com/en-us/training/modules/perform-analytics-power-bi/3-visuals)
+![Uploading image.png…]()
 
 
 
