@@ -32,12 +32,18 @@ Creating a scatter visual is the first step of applying the clustering technique
 
 
 
+funnel visualization
+--------------------
+A funnel visualization is a chart that that has sequential connected stages, where items flow sequentially from one stage to the next.
 
 
 
-
-
-
+Python visual 
+-------------
+To create a Python visual by using Power BI Desktop, 
+first need to install Python on computer.
+Second need to configure the global Python scripting options in Power BI Desktop.
+Enabling the script visuals option in the Visualization pane of Power BI Desktop is done once Python is installed. Creating a custom Python visual by using Power BI Desktop has no dependency on enabling preview features.
 
 
 
