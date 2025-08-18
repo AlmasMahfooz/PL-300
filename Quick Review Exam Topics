@@ -22,7 +22,7 @@ A ribbon chart places the highest (ranked) value at the top of the stacked colum
 
 A scatterplot is typically used to compare a relationship between two (or more) calculations and their categorical distribution between each other.
 
-
+Date/time and numeric data types support bins-based grouping. Binary, Boolean, and text data types do not support bins-based grouping.
 
 A SharePoint folder is the only connector that will allow the import of multiple Excel (or CSV) files stored in a OneDrive for Business folder, without using 
 a data gateway.
