@@ -8,7 +8,17 @@ USERPRINCIPALNAME would return the Microsoft Entra ID login in the format of “
 Contributor role is appropriate for users who need to manage content, as it provides permissions for creating, editing, and deleting content
 assigning the Member role to all users provides more permissions than necessary for those who only need viewing access.
 The Admin role is the only one that has the permission to update workspace metadata.
+Workspace apps can be installed automatically for any user in an organization, and without requiring notifications of installation
+The Contributor role is the least privileged role that grants permissions to schedule data refreshes.
+Admin role is the only role to update metadata 
 
+If there are 4 consecutive semantic model refresh failures, the refresh schedule will be automatically disabled.
+To use row-level security to ensure that, once the report is published, employees in each department can only see the sales data for that department,
+you first need to create a role
+and a corresponding DAX expression.
+Defining RLS roles in Power BI Desktop allows for filtering data based on department membership, making it an essential step for implementing RLS.
+To restrict data access based on department membership, assigning users to roles in the Power BI service ensures that the Row-Level Security (RLS) rules 
+are applied to the correct individuals.
 
 https://learn.microsoft.com/en-us/power-bi/natural-language/end-user-q-and-a-tutorial
 
