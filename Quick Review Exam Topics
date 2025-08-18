@@ -87,10 +87,16 @@ Lineage View in Power BI is a powerful visual tool that helps you understand how
 Every workspace automatically has a lineage view. You need at least a Contributor role in the workspace to view it.
 
 
+Q.You need to implement a solution that meets the following requirements:
+The navigation destination must change based on the output of a DAX measure named [Error Rate].
+If [Error Rate] is greater than 5%, the button must display the text “Error Rate” and navigate to the Error Rate page.
+Otherwise, the button must display the text “On-time Rate” and navigate to the On-Time Rate page.
+What three actions should you perform? 
 
-
-
-
+Answer:
+1.Create a DAX measure that outputs the correct page name based on the value of [Error Rate].
+2.Then configure the button to use page navigation and use the newly created DAX measure to specify the navigation destination.
+3.To change the button text to match the page name, conditional formatting must be used to set the text to equal the newly created DAX measure.
 
 
 
