@@ -26,13 +26,15 @@ Both visualizations will effectively show the trends in your data over the month
 scatterplot/Scatter Chart/Scatter Plot
 --------------------------------------
 A scatterplot is typically used to compare a relationship between two (or more) calculations and their categorical distribution between each other.
-Creating a scatter visual is the first step of applying the clustering technique that groups data into clusters
+Creating a scatter visual is the first step of applying the clustering technique that groups data into clusters.It is particularly suitable for identifying outliers
+because it displays them away from the bulk of data.
+
+![Uploading image.png…](learn.microsoft.com/en-us/training/modules/perform-analytics-power-bi/3-visuals)
 
 
 
 
-
-funnel visualization
+Funnel Visualization
 --------------------
 A funnel visualization is a chart that that has sequential connected stages, where items flow sequentially from one stage to the next.
 
@@ -59,7 +61,8 @@ Visualizing trends using a trend line shows overall trends in the data but does 
 Common visuals for showing trends are Line,Area, Column and Bar Charts.
 
 
-
+Histogram.
+----------
 Create a Histogram in Power BI to see your product sales distribution.
 Exercise:https://www.youtube.com/watch?v=n-_hIc6mj1I
 
