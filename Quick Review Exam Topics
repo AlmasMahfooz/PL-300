@@ -1,3 +1,7 @@
+A SharePoint folder is the only connector that will allow the import of multiple Excel (or CSV) files stored in a OneDrive for Business folder, without using a data gateway. 
+Transposing treats rows as columns, and columns as rows. it wouldn't create new single column for data like unpivot.
+The pivot column operation converts data into a table by aggregating values in a column. for example you can pivot the columns to calculate the count of product subcategories in each product category. 
+
 The Power BI service provides support for creating Power BI dashboards. The Power BI mobile app can be used to view dashboards, but not to create them.
 Power BI Desktop does not provide support
 for creating Power BI dashboards.
