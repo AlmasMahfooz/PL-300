@@ -14,7 +14,9 @@ assigning the Member role to all users provides more permissions than necessary 
 The Admin role is the only one that has the permission to update workspace metadata.
 Workspace apps can be installed automatically for any user in an organization, and without requiring notifications of installation
 The Contributor role is the least privileged role that grants permissions to schedule data refreshes.
-Admin role is the only role to update metadata 
+Admin role is the only role to update metadata.
+Admin users who have permissions to certify a semantic model are defined in the Dataset Certification tenant admin setting.
+
 
 If there are 4 consecutive semantic model refresh failures, the refresh schedule will be automatically disabled.
 To use row-level security to ensure that, once the report is published, employees in each department can only see the sales data for that department,
@@ -70,10 +72,24 @@ A funnel visualization is a chart that that has sequential connected stages, whe
 A matrix visualization displays data in two or more dimensions and cross-highlights with other visuals on the same report page.
 A scatter chart visualization is a chart with one set of numerical data along a horizontal axis and another set of numerical values along a vertical axis.
 The matrix, scatter chart, and funnel do not offer a search box.
+A calculated table only duplicates data. Any model configurations such as column visibility or hierarchies must be recreated if needed.
+Calculated tables are generated with DAX queries. Numeric range parameters create a table and measure, both generated with DAX queries.
+Time intelligence functions have performance implications and are disabled for quick measures against DirectQuery tables
 
+As part of setting up row-level security, it is necessary to create a role. In addition, it is necessary to add a DAX expression filter to the Salesperson table.
+This expression checks for a match between the salesperson's User Principal Name attribute and the value in the UPN column. If the two match, the salesperson is
+allowed to view the content of the corresponding row from the Salesperson table.
+A column that has a lot of repeated values and a low number of distinct values will have a low cardinality. Reducing the number of distinct values reduces cardinality. 
 
+To eliminate the impact of visual caching during a performance evaluation when using Performance Analyzer to evaluate the visuals, you must first add a blank page to the report,
+select that page, and then reopen the PBIX file. Connecting DAX Studio to the data model is the first step to clear the data engine cache.
 
+RLS roles are created or modified from the Manage roles space. You can assign AD users/groups to an existing role in the security settings,
+but new RLS roles must be created in Power BI desktop or other model authoring external tool. RLS configurations cannot be accessed from any Power Query window.
 
+Date/time and numeric data types support bins-based grouping. Binary, Boolean, and text data types do not support bins-based grouping.
+
+The group is created against a numerical column using bins.The Bin group type is an auto grouping of items into bucketed bins (groups). It will display well as a histogram. 
 
 To define incremental refresh policy
 -------------------------------------
@@ -113,23 +129,7 @@ Answer:
 3.To change the button text to match the page name, conditional formatting must be used to set the text to equal the newly created DAX measure.
 
 
-
-
-
 Manage and Secure Power BI
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 
 Configure relationships:
