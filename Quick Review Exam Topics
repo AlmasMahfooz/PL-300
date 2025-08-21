@@ -28,6 +28,12 @@ are applied to the correct individuals.
 
 https://learn.microsoft.com/en-us/power-bi/natural-language/end-user-q-and-a-tutorial
 
+Featured Table in Power BI
+---------------------------
+A featured table is a table in Power BI that’s specially tagged so it can appear in Excel’s Data Types Gallery. This allows users to easily pull structured, refreshable data from Power BI directly into Excel.
+
+
+
 
 VISUALS
 --------
