@@ -1,3 +1,20 @@
+In Power BI, data category refers to a setting that helps Power BI understand the semantic meaning of a column—so it can treat and visualize the data appropriately. 
+It’s like giving Power BI a hint about what kind of data it’s dealing with.
+by assigning a data category, you help Power BI:
+>Format the data correctly
+>Enable specific features (like geographic mapping or URL linking)
+>Improve how visuals behave and how data is interpreted
+
+Some Examples are 
+Address:	            Treats the data as a physical address for mapping
+City / Country / State:	Used for geographic visuals like maps
+Web URL:	            Turns text into clickable hyperlinks
+Image URL:	            Displays images from a URL in visuals
+Barcode	Optimizes:      For barcode scanning scenarios
+Latitude / Longitude:	Used for precise geolocation mapping
+
+
+
 A SharePoint folder is the only connector that will allow the import of multiple Excel (or CSV) files stored in a OneDrive for Business folder, without using a data gateway. 
 Transposing treats rows as columns, and columns as rows. it wouldn't create new single column for data like unpivot.
 The pivot column operation converts data into a table by aggregating values in a column. for example you can pivot the columns to calculate the count of product subcategories in each product category. 
