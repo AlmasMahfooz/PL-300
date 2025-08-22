@@ -13,6 +13,23 @@ Image URL:	            Displays images from a URL in visuals
 Barcode	Optimizes:      For barcode scanning scenarios
 Latitude / Longitude:	Used for precise geolocation mapping
 
+USERELATIONSHIP is a DAX function in Power BI that allows you to activate an inactive relationship between two tables—temporarily, within a specific calculation. 
+It’s especially useful when you have multiple relationships between tables but only one can be active at a time.
+Imagine you have a Sales table with both OrderDate and DeliveryDate, and a Date table. Power BI can only use one relationship actively—say, OrderDate. But what if you want to analyze sales by 
+DeliveryDate instead? That’s where USERELATIONSHIP comes in.
+Sales by Delivery Date = 
+CALCULATE(
+    SUM(Sales[Amount]),
+    USERELATIONSHIP(Sales[DeliveryDate], Date[Date])
+)
+
+
+The TOTALYTD function in DAX is used to calculate Year-To-Date (YTD) totals—meaning it accumulates values from the beginning of the year up to a specific date.
+Sales YTD = 
+TOTALYTD(
+    SUM(Sales[Amount]),
+    'Date'[Date]
+)
 
 
 A SharePoint folder is the only connector that will allow the import of multiple Excel (or CSV) files stored in a OneDrive for Business folder, without using a data gateway. 
