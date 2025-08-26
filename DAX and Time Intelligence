@@ -29,11 +29,7 @@ Iterator functions
 Iterator functions have an ability to balance both row context and filter context. Again, the filter context decides what rows are relevant to the overall calculation. Within that context, the iterator function performs a calculation at the row level on each and then aggregates the results. 
 AVG(it):=AVERAGEX(Students,[English Score]+[Math Score])
 
-DAX Calculated Columns vs. Power Query
 ----------------------------------------
-
-
-
 Scalar functions are functions that allow us to return a single value.
 Some of the most common ones we look at are SUM, AVERAGE, MIN, MAX, COUNT, or COUNTROWS
 Aggregation functions look at all the values in a particular column and do something to summarize that data
