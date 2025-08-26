@@ -32,8 +32,6 @@ because it displays them away from the bulk of data.
 ![Uploading image.png…](https://github.com/AlmasMahfooz/PL-300/blob/main/Images/3-scatter-chart-outlier-ss.png)
 
 
-
-
 Funnel Visualization
 --------------------
 A funnel visualization is a chart that that has sequential connected stages, where items flow sequentially from one stage to the next.
@@ -46,8 +44,7 @@ To create a Python visual by using Power BI Desktop,
 first need to install Python on computer.
 Second need to configure the global Python scripting options in Power BI Desktop.
 Enabling the script visuals option in the Visualization pane of Power BI Desktop is done once Python is installed. Creating a custom Python visual by using Power BI Desktop has no dependency on enabling preview features.
-
-
+---------------------------------------------------------------------------------------------
 
 
 
@@ -63,45 +60,33 @@ Common visuals for showing trends are Line,Area, Column and Bar Charts.
 
 Histogram.
 ----------
+A histogram chart is a Power BI visualization that displays the frequency distribution of data. It is a bar chart that groups data points into ranges or bins and then displays the number of data points in each bin. Histograms can be used to identify patterns in data, such as central tendency, outliers, and skewness
+
 Create a Histogram in Power BI to see your product sales distribution.
 Exercise:https://www.youtube.com/watch?v=n-_hIc6mj1I
-
-
-
-
-
+-----------------------------------------------------------------------------------------
 https://electroiq.com/stats/power-bi-statistics/
 https://learn.microsoft.com/en-us/power-bi/create-reports/desktop-excel-stunning-report
 https://www.youtube.com/@droovetech
 https://www.youtube.com/@globaltechlearn
 https://www.youtube.com/watch?v=HlnpGY9sYH8&list=PLHhRh409SyR7UBoV8n2t_Nu1aSO4nJyQI&index=5
-https://www.passnexam.com/microsoft/pl-300/2
 https://www.youtube.com/watch?v=fkEIX_fR9sI&t=545s
 
-
-working on these test paper
+-----------------------------------------------------------------------------------------
+Passnexam test paper
+https://www.passnexam.com/microsoft/pl-300/2
 https://www.passnexam.com/microsoft/pl-300/5
-
-
+-----------------------------------------------------------------------------------------
 Pragmatic videos
 https://www.youtube.com/watch?v=H2HPicNvz8s&list=PLcwrIWK7WBcSCcdFkFBftOjqli_yi9Zti&index=2
 https://www.youtube.com/watch?v=Dk25lwdTKow
-
+--------------------------------------------------------------------------------------------
 CASE STUDY
 https://www.youtube.com/watch?v=fNuhHByJbS4&list=PLbWtUDmDbHRAAYc1FDinFWk-PFZ77sde2
 (https://www.youtube.com/watch?v=SU3f8UK6XEU&t=107s)
-
-
-
-
+--------------------------------------------------------------------------------------------
 https://github.com/microsoft/powerbi-desktop-samples
-
 https://learn.microsoft.com/en-us/power-bi/create-reports/insights
-
 https://radacad.com/enhance-the-card-visual-in-power-bi-with-conditional-formatting/
 
 
-StartDate = 
-var __Weeknum = Weekly_Returns[week_id]
-return
-CALCULATE(FORMAT(MIN('Date'[date]),"yyyymmdd" ),  'Date'[week] = __Weeknum)
