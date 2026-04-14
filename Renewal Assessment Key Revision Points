@@ -14,6 +14,10 @@ The One-to-many and Many-to-one relationships are essentially the same, just in 
 
 Dimension tables (the "one" side) 
 Fact tables (the "many" side) 
+Q.What cardinality type should you set to create a relationship between a dimension table to a fact table?
+A.One-to-Many 
+Dimension tables have a unique key column that forms the 'one' side. The fact table dimension key column stores duplicate values, so is the 'many' side.
+
 
 >>  Cross filteration <<
 A model relationship is defined with a cross filter direction. The direction determines how filters propagate. 
