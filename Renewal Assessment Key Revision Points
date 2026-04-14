@@ -40,5 +40,15 @@ Measures in a data model are calculated, quantitative metrics—such as sum, ave
 The Home Table property in Power BI allows you to change which table a measure is stored in, organizing your data model for better usability. Found in the properties pane within Model View,
 it allows you to move measures to a specific "measures table" or a relevant data table
 
+
+
 >>LAB<<
 https://microsoftlearning.github.io/PL-300-Microsoft-Power-BI-Data-Analyst/Instructions/Labs/03-configure-semantic-model.html
+
+Time intelligence 
+------------------
+
+
+
+
+
