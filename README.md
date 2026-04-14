@@ -106,21 +106,29 @@ https://learn.microsoft.com/en-us/power-bi/create-reports/insights
 https://radacad.com/enhance-the-card-visual-in-power-bi-with-conditional-formatting/
 
 
-Year    Jan    Feb    Mar
+Year     Jan     Feb     Mar
 
-2025     10     20     30
+2025      10      20      30
 
-2026     11     12     13     
+2026      11      12      13     
 
 when we UNPIVOT it  
 it will be like below
 
-Year  Month  Amount
-2025  Jan    10
-2025  Feb    20
-2025  Mar    30
-2026  Jan    11
-2026  Feb    12
-2026  Mar    13   and when we PIVOT it it will give the output like the above shown table
+ 
+Year      Month      Amount
+2025        Jan    10
+
+2025        Feb    20
+
+2025        Mar    30
+
+2026        Jan    11
+
+2026        Feb    12
+
+2026        Mar    13  
+
+and when we PIVOT it it will give the output like the above shown table
 
 
