@@ -31,3 +31,10 @@ Multiple relationships to a dimension table exist, which is known as a role-play
 By creating Order Date and Ship Date tables, each can have active relationships to the Sales table acting as role-playing dimension.
 
 The Synonyms property of table allows you to set one or more alternative names for the table, so that Q&A or Copilot can better understand and resolve requests made to automatically generate visuals or DAX formulas.
+
+Measures in a data model are calculated, quantitative metrics—such as sum, average, or count—derived from numerical data and evaluated at query time based on context. 
+The Home Table property in Power BI allows you to change which table a measure is stored in, organizing your data model for better usability. Found in the properties pane within Model View,
+it allows you to move measures to a specific "measures table" or a relevant data table
+
+>>LAB<<
+https://microsoftlearning.github.io/PL-300-Microsoft-Power-BI-Data-Analyst/Instructions/Labs/03-configure-semantic-model.html
