@@ -22,3 +22,12 @@ Where there's a "one" side, filters always propagate to the other side. Where th
 A valid reason to allow cross filtering of a one-to-many relationship in both directions is to enable many-to-many analysis between two dimension tables.
 Consider an example where salespeople are assigned to multiple regions, and conversely regions can have multiple salespeople assigned. To implement this design,
 your model needs a bridging table that associates salespeople and regions.
+[https://learn.microsoft.com/en-us/training/modules/configure-semantic-model-power-bi/2-relationships]
+
+There can only be one active filter propagation path between two model tables.
+The USERELATIONSHIP DAX function is used to specify an existing relationship—typically an inactive one—to be used in a specific calculation.
+
+Multiple relationships to a dimension table exist, which is known as a role-playing dimension. For example, consider that the Sales table has two date columns: OrderDate and ShipDate.
+By creating Order Date and Ship Date tables, each can have active relationships to the Sales table acting as role-playing dimension.
+
+The Synonyms property of table allows you to set one or more alternative names for the table, so that Q&A or Copilot can better understand and resolve requests made to automatically generate visuals or DAX formulas.
