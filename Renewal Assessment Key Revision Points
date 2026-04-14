@@ -1,1 +1,17 @@
-Relationship setting in Power BI Desktop has Data load options, these settings can import relationships detected in source data, update or delete relationships when refreshing data, and autodetect new relationships.
+Relationships in Power BI link tables together based on common columns to enable cross-table analysis and visualization, typically using a star schema with one-to-many relationships. 
+
+Relationship setting in Power BI Desktop can import relationships detected in source data, update or delete relationships when refreshing data, and autodetect new relationships.
+
+Sometimes, a table doesn't need a relationship to another model table, which is known as a disconnected table.
+
+Every relationship has a cardinality type, which is either:
+One-to-many (1:*)
+Many-to-one (*:1)
+One-to-one (1:1)
+Many-to-many (*:*)
+
+The One-to-many and Many-to-one relationships are essentially the same, just in different directions.
+
+Dimension tables (the "one" side) 
+Fact tables (the "many" side) 
+
