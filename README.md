@@ -117,17 +117,18 @@ it will be like below
 
  
 Year      Month      Amount
-2025        Jan    10
 
-2025        Feb    20
+2025        Jan       10
 
-2025        Mar    30
+2025        Feb       20
 
-2026        Jan    11
+2025        Mar       30
 
-2026        Feb    12
+2026        Jan       11
 
-2026        Mar    13  
+2026        Feb       12
+
+2026        Mar       13  
 
 and when we PIVOT it it will give the output like the above shown table
 
