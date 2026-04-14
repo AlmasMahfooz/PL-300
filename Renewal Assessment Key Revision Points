@@ -46,9 +46,16 @@ it allows you to move measures to a specific "measures table" or a relevant data
 https://microsoftlearning.github.io/PL-300-Microsoft-Power-BI-Data-Analyst/Instructions/Labs/03-configure-semantic-model.html
 [https://github.com/pbi-tools/adventureworksdw2020-pbix/tree/main/data]
 
+Examples
+https://learn.microsoft.com/en-us/power-bi/guidance/star-schema
+
+
+
 Time intelligence 
 ------------------
 Time intelligence relates to calculations over time.
+
+
 
 
 
